@@ -1,7 +1,7 @@
-Python program to find second largest number in a list
+#Python program to find second largest number in a list
 
 
-Method 1: Sorting is an easier but less optimal method. Given below is an O(n) algorithm to do the same.
+#Method 1: Sorting is an easier but less optimal method. Given below is an O(n) algorithm to do the same.
 
 list1 = [10, 20, 4, 45, 99] 
   
@@ -20,7 +20,7 @@ for i in range(2,n):
   
 print("Second highest number is : ",str(secondmax))
 
-Method 2 : Sort the list in ascending order and print the second last element in the list.
+#Method 2 : Sort the list in ascending order and print the second last element in the list.
 
 # Python program to find largest 
 # number in a list 
@@ -34,7 +34,7 @@ list1.sort()
 # printing the second last element 
 print("Second largest element is:", list1[-2]) 
 
-Method 3 : By removing the max element from list
+#Method 3 : By removing the max element from list
 
 
 # Python program to find second largest 
@@ -57,17 +57,17 @@ print(max(new_list))
 
 
 
-Sanjay had m rupees and cost of each chocolate was c rupees. Shopkeeper gave away one chocolate for three wrappers. In this problem lets generalise the question saying, Sanjay has m rupees, each chocolate costs c rupees, shopkeeper will give away k chocolates for w wrappers. Can you find now how many chocolates Sanjay will be able to eat?
+#anjay had m rupees and cost of each chocolate was c rupees. Shopkeeper gave away one chocolate for three wrappers. In this problem lets generalise the question saying, Sanjay has m rupees, each chocolate costs c rupees, shopkeeper will give away k chocolates for w wrappers. Can you find now how many chocolates Sanjay will be able to eat?
 
 Input: 4 integers separated by space in order m, c, w, k
  
-Sample input:
-15, 2, 3, 1
+#Sample input:
+#15, 2, 3, 1
  
-Sample output:
-10
+#Sample output:
+#10
 
-method 1:
+#method 1:
 n = input()
 i = n.split(',')
 m, c, w, k = [int(x) for x in i]
@@ -107,11 +107,11 @@ print(total_eaten)
 
 
 
-method 2:
-Input: 4 integers separated by space in order m, c, w, k
+#method 2:
+#Input: 4 integers separated by space in order m, c, w, k
  
-Sample input:
-15, 2, 3, 1
+#Sample input:
+#15, 2, 3, 1
 
 number = input()
 myList = number.split(',')
@@ -164,8 +164,8 @@ for i in d:
     for j in i:
         c.append(j)
 print(c)
-added one more map to breakdown, and then doing flatten list
-there is a way to flatten list is sum(listoflists,[])
+#added one more map to breakdown, and then doing flatten list
+#there is a way to flatten list is sum(listoflists,[])
 
 
 x = [["a","b"], ["c"]]
@@ -174,7 +174,7 @@ result = sum(x, [])
 
 
 
-1st input
+#1st input
 =========
 orders = [ ["34587", "Medicines", 4, 40.95],
            ["98762", "Books", 5, 56.80],
